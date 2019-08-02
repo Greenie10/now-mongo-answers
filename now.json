@@ -1,0 +1,7 @@
+{
+  "name": "now-mongo-answers",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@now-mongo-answers-uri"
+  }
+}
