@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { Link, Route, BrowserRouter as Router } from "react-router-dom";
+import {
+  NavLink,
+  Route,
+  BrowserRouter as Router,
+  Switch
+} from "react-router-dom";
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
+import Notfound from "./pages/Notfound";
 
 import * as serviceWorker from "./serviceWorker";
 
@@ -13,14 +19,21 @@ const routing = (
     <div>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink exact activeClassName="active" to="/">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/gardeners">Gardeners</Link>
+          <NavLink activeClassName="active" to="/gardeners">
+            Gardeners
+          </NavLink>
         </li>
       </ul>
-      <Route path="/gardeners" component={GardenersPage} />
-      <Route path="/" component={App} />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/gardeners" component={GardenersPage} />
+        <Route component={Notfound} />
+      </Switch>
     </div>
   </Router>
 );
