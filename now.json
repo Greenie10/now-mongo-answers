@@ -3,5 +3,6 @@
   "version": 2,
   "env": {
     "MONGODB_URI": "@now-mongo-answers-uri"
-  }
+  },
+  "routes": [{ "src": "/list", "dest": "/api/gardeners.js" }]
 }
