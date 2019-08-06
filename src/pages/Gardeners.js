@@ -1,12 +1,14 @@
 import React from "react";
+import gardeners from "../api/gardeners";
 
 class GardenersPage extends React.Component {
   render() {
+    console.log(gardeners);
     return (
       <div>
         <h1>Gardeners</h1>
 
-        <label for="gardener-select">Choose a gardener:</label>
+        <label htmlFor="gardener-select">Choose a gardener:</label>
 
         <select id="gardener-select">
           <option value="">--Please choose--</option>

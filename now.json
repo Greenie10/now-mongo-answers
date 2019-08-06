@@ -4,5 +4,5 @@
   "env": {
     "MONGODB_URI": "@now-mongo-answers-uri"
   },
-  "routes": [{ "src": "/list", "dest": "/api/gardeners.js" }]
+  "routes": [{ "src": "/list", "dest": "/src/api/gardeners.js" }]
 }
