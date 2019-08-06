@@ -1,5 +1,5 @@
 import React from "react";
-const gardeners = require("../api/gardeners");
+const gardeners = require("../api/gardeners.js");
 
 class GardenersPage extends React.Component {
   render() {
