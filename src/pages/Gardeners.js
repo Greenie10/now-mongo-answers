@@ -1,5 +1,5 @@
 import React from "react";
-import gardeners from "../api/gardeners";
+import { gardeners } from "../api/gardeners";
 
 class GardenersPage extends React.Component {
   render() {
