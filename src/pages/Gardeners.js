@@ -18,15 +18,6 @@ class GardenersPage extends React.Component {
       <div>
         <h1>Gardeners</h1>
 
-        {/* <label htmlFor="gardener-select">Choose a gardener:</label>
-        <select id="select">
-          <option value="">--Please choose--</option>
-          {this.state.list &&
-            this.state.list.gardeners.map(({ _id, name }) => (
-              <option value={_id}>{name}</option>
-            ))}
-        </select> */}
-
         <table>
           <tr>
             <th>Name</th>
