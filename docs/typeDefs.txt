@@ -1,0 +1,27 @@
+type Post {
+  _id: String
+  title: String
+  content: String
+  comments: [Comment]
+}
+type Comment {
+  _id: String
+  postId: String
+  content: String
+  post: Post
+}
+
+type Question {
+  _id: String
+  content: String
+  answers: [Answer]
+}
+type Answer {
+  _id: String
+  questionId: String
+  content: String
+  question: Question
+}
+
+Post = Question
+Comment = Answer
