@@ -2,7 +2,11 @@
   "name": "now-mongo-answers",
   "version": 2,
   "env": {
-    "MONGODB_URI": "@now-mongo-answers-uri"
+    "MONGODB_URI_GARDENERS": "@now-mongo-answers-uri-gardeners",
+    "MONGODB_URI_GQT": "@now-mongo-answers-uri-gqt"
   },
-  "routes": [{ "src": "/list", "dest": "/api/gardeners.js" }]
+  "routes": [
+    { "src": "/list", "dest": "/api/gardeners.js" },
+    { "src": "/questionsList", "dest": "/api/questions.js" }
+  ]
 }

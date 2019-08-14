@@ -10,6 +10,7 @@ import {
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
+import QuestionsPage from "./pages/Questions";
 import Notfound from "./pages/Notfound";
 
 import * as serviceWorker from "./serviceWorker";
@@ -28,10 +29,16 @@ const routing = (
             Gardeners
           </NavLink>
         </li>
+        <li>
+          <NavLink activeClassName="active" to="/questions">
+            Questions
+          </NavLink>
+        </li>
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/gardeners" component={GardenersPage} />
+        <Route path="/questions" component={QuestionsPage} />
         <Route component={Notfound} />
       </Switch>
     </div>

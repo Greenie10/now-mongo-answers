@@ -1,13 +1,13 @@
 import React from "react";
 
-class GardenersPage extends React.Component {
+class QuestionsPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = { list: null };
   }
   async componentDidMount() {
     const response = await fetch(
-      "https://now-mongo-answers.lollymay.now.sh/list"
+      "https://now-mongo-answers.lollymay.now.sh/questionsList"
     );
     const list = await response.json();
     this.setState({ list });
@@ -16,17 +16,15 @@ class GardenersPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Gardeners</h1>
+        <h1>Questions</h1>
 
         <table>
           <tr>
-            <th>Name</th>
             <th>_id</th>
           </tr>
           {this.state.list &&
-            this.state.list.gardeners.map(({ _id, name }) => (
+            this.state.list.questions.map(({ _id }) => (
               <tr>
-                <td>{name}</td>
                 <td>{_id}</td>
               </tr>
             ))}
@@ -36,4 +34,4 @@ class GardenersPage extends React.Component {
   }
 }
 
-export default GardenersPage;
+export default QuestionsPage;

@@ -32,15 +32,15 @@ module.exports = async (_req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   // Get a database connection, cached or otherwise,
   // using the connection string environment variable as the argument
-  const db = await connectToDatabase(process.env.MONGODB_URI_GARDENERS);
+  const db = await connectToDatabase(process.env.MONGODB_URI_GQT);
   console.log("TCL: db", db);
 
   // Select the "users" collection from the database
-  const collection = await db.collection("gardeners");
+  const collection = await db.collection("questions");
 
   // Select the users collection from the database
-  const gardeners = await collection.find({}).toArray();
+  const questions = await collection.find({}).toArray();
 
   // Respond with a JSON string of all users in the collection
-  res.status(200).json({ gardeners });
+  res.status(200).json({ questions });
 };
