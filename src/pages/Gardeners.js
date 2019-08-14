@@ -6,12 +6,9 @@ class GardenersPage extends React.Component {
     this.state = { list: null };
   }
   async componentDidMount() {
-    const response = await fetch(
-      "https://now-mongo-answers.lollymay.now.sh/list"
-    );
+    const response = await fetch("/list");
     const list = await response.json();
     this.setState({ list });
-    console.log(response);
   }
   render() {
     return (

@@ -6,12 +6,9 @@ class QuestionsPage extends React.Component {
     this.state = { list: null };
   }
   async componentDidMount() {
-    const response = await fetch(
-      "https://now-mongo-answers.lollymay.now.sh/questionsList"
-    );
+    const response = await fetch("/questionsList");
     const list = await response.json();
     this.setState({ list });
-    console.log(response);
   }
   render() {
     return (
@@ -21,11 +18,13 @@ class QuestionsPage extends React.Component {
         <table>
           <tr>
             <th>_id</th>
+            <th>question</th>
           </tr>
           {this.state.list &&
-            this.state.list.questions.map(({ _id }) => (
+            this.state.list.questions.map(({ _id, Question }) => (
               <tr>
                 <td>{_id}</td>
+                <td>{Question}</td>
               </tr>
             ))}
         </table>
