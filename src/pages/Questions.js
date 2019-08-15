@@ -18,13 +18,15 @@ class QuestionsPage extends React.Component {
         <table>
           <tr>
             <th>_id</th>
-            <th>question</th>
+            <th>Question</th>
+            <th>Answers</th>
           </tr>
           {this.state.list &&
-            this.state.list.questions.map(({ _id, Question }) => (
+            this.state.list.questions.map(({ _id, Question, Location }) => (
               <tr>
                 <td>{_id}</td>
                 <td>{Question}</td>
+                <td>{Location}</td>
               </tr>
             ))}
         </table>
