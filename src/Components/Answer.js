@@ -1,8 +1,6 @@
 import React from "react";
 
-const Answer = response => {
-  const { Gardener, AnAnswer } = response.answer;
-
+const Answer = ({ response: { Gardener, AnAnswer } }) => {
   return (
     <p>
       <strong>{Gardener}</strong>

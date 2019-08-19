@@ -22,9 +22,7 @@ class QuestionsPage extends React.Component {
         <Table celled padded>
           <Table.Header>
             <Table.Row>
-              <Table.HeaderCell>_id</Table.HeaderCell>
               <Table.HeaderCell>Question</Table.HeaderCell>
-              <Table.HeaderCell>Location</Table.HeaderCell>
               <Table.HeaderCell>Answers</Table.HeaderCell>
             </Table.Row>
           </Table.Header>
@@ -34,13 +32,15 @@ class QuestionsPage extends React.Component {
               ({ _id, Question, Location, Answers }) => {
                 return (
                   <Table.Body>
-                    <Table.Row>
-                      <Table.Cell>{_id}</Table.Cell>
-                      <Table.Cell>{Question}</Table.Cell>
-                      <Table.Cell>{Location}</Table.Cell>
+                    <Table.Row verticalAlign="top">
                       <Table.Cell>
-                        {Answers.map(id => (
-                          <Answer response={Answers[id]} />
+                        {Question}
+                        <br />
+                        <em>{Location}</em>
+                      </Table.Cell>
+                      <Table.Cell>
+                        {Answers.map(answer => (
+                          <Answer response={answer} />
                         ))}
                       </Table.Cell>
                     </Table.Row>
