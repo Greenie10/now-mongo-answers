@@ -1,4 +1,7 @@
 import React from "react";
+import { Table } from "semantic-ui-react";
+
+import Answer from "../Components/Answer";
 
 class QuestionsPage extends React.Component {
   constructor(props) {
@@ -10,26 +13,42 @@ class QuestionsPage extends React.Component {
     const list = await response.json();
     this.setState({ list });
   }
+
   render() {
     return (
       <div>
         <h1>Questions</h1>
 
-        <table>
-          <tr>
-            <th>_id</th>
-            <th>Question</th>
-            <th>Answers</th>
-          </tr>
+        <Table celled padded>
+          <Table.Header>
+            <Table.Row>
+              <Table.HeaderCell>_id</Table.HeaderCell>
+              <Table.HeaderCell>Question</Table.HeaderCell>
+              <Table.HeaderCell>Location</Table.HeaderCell>
+              <Table.HeaderCell>Answers</Table.HeaderCell>
+            </Table.Row>
+          </Table.Header>
+
           {this.state.list &&
-            this.state.list.questions.map(({ _id, Question, Location }) => (
-              <tr>
-                <td>{_id}</td>
-                <td>{Question}</td>
-                <td>{Location}</td>
-              </tr>
-            ))}
-        </table>
+            this.state.list.questions.map(
+              ({ _id, Question, Location, Answers }) => {
+                return (
+                  <Table.Body>
+                    <Table.Row>
+                      <Table.Cell>{_id}</Table.Cell>
+                      <Table.Cell>{Question}</Table.Cell>
+                      <Table.Cell>{Location}</Table.Cell>
+                      <Table.Cell>
+                        {Answers.map(id => (
+                          <Answer response={Answers[id]} />
+                        ))}
+                      </Table.Cell>
+                    </Table.Row>
+                  </Table.Body>
+                );
+              }
+            )}
+        </Table>
       </div>
     );
   }

@@ -6,10 +6,12 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Matt": "The rose has had an initial burst of enthusiasm but over time it has run out of steam because it won’t have had access to enough water - as it is surrounded by paving slabs."
+        "Gardener": "Matt",
+        "AnAnswer": "The rose has had an initial burst of enthusiasm but over time it has run out of steam because it won’t have had access to enough water - as it is surrounded by paving slabs."
       },
       {
-        "Chris": "Once it is regularly defoliated, the plant is less likely to accumulate nutrients in order to start the burst for next spring. You could be very severe with the cutback and reduce the canopy in order to balance out the damaged root system."
+        "Gardener": "Chris",
+        "AnAnswer": "Once it is regularly defoliated, the plant is less likely to accumulate nutrients in order to start the burst for next spring. You could be very severe with the cutback and reduce the canopy in order to balance out the damaged root system."
       }
     ]
   },
@@ -20,10 +22,12 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "Alpine strawberries and herbs such as origanum or marjoram because they are very durable."
+        "Gardener": "Anne",
+        "AnAnswer": "Alpine strawberries and herbs such as origanum or marjoram because they are very durable."
       },
       {
-        "Matt": "Climbing beans and squashes grow well with sunflowers."
+        "Gardener": "Matt",
+        "AnAnswer": "Climbing beans and squashes grow well with sunflowers."
       }
     ]
   },
@@ -34,10 +38,12 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "As long as you’ve got large areas of covered ground it doesn’t matter; the animals will have a damp, shaded place to go to."
+        "Gardener": "Anne",
+        "AnAnswer": "As long as you’ve got large areas of covered ground it doesn’t matter; the animals will have a damp, shaded place to go to."
       },
       {
-        "Eric": "Leave pathways through the garden for the wildlife."
+        "Gardener": "Eric",
+        "AnAnswer": "Leave pathways through the garden for the wildlife."
       }
     ]
   },
@@ -48,7 +54,8 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "It is not a very hardy plant so a north/east facing wall could be too cold - a south east facing wall would be better. You need to find a sheltered nook, preferably a very warm south/west facing area with well drained soil."
+        "Gardener": "Anne",
+        "AnAnswer": "It is not a very hardy plant so a north/east facing wall could be too cold - a south east facing wall would be better. You need to find a sheltered nook, preferably a very warm south/west facing area with well drained soil."
       }
     ]
   },
@@ -59,13 +66,16 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "I would go for a plum and a damson because that would be a good combination of fruit to eat raw or to use in cooking."
+        "Gardener": "Anne",
+        "AnAnswer": "I would go for a plum and a damson because that would be a good combination of fruit to eat raw or to use in cooking."
       },
       {
-        "Matt": "I would plant the ‘Beauty of Bath’ apple and the Medlar tree."
+        "Gardener": "Matt",
+        "AnAnswer": "I would plant the ‘Beauty of Bath’ apple and the Medlar tree."
       },
       {
-        "Chris": "‘Keswick Codlin’ because it can be used for both cooking and eating raw. I would also go with ‘Scrumptious’ as it is probably the best of the eater apples. ‘Lord Darby’ is a fantastic cooking apple. They are all brilliant pollinators."
+        "Gardener": "Chris",
+        "AnAnswer": "‘Keswick Codlin’ because it can be used for both cooking and eating raw. I would also go with ‘Scrumptious’ as it is probably the best of the eater apples. ‘Lord Darby’ is a fantastic cooking apple. They are all brilliant pollinators."
       }
     ]
   },
@@ -76,7 +86,8 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Chris": "If you want it to produce a true coppice you need to start it at a very early age. You need to entice this young tree to start producing shoots lower down. You could go 2/3ft (60/90cm) above ground level and I would take a strip of the bark out, up to about a third of the way around the trunk. You could use a pruning knife to make two parallel lines 1cm apart and peel the bark out, you can do that quite early in the spring when the sap is rising, before the buds have broken. Once you have taken it out flip it 180 degrees, re-insert it and bind it with something like raffia. This will limit the movement of hormones up and down the plant and a bud could appear below the cut which will receive nutrients from the roots. Hopefully somewhere below the cut you will see new shoots starting to grow."
+        "Gardener": "Chris",
+        "AnAnswer": "If you want it to produce a true coppice you need to start it at a very early age. You need to entice this young tree to start producing shoots lower down. You could go 2/3ft (60/90cm) above ground level and I would take a strip of the bark out, up to about a third of the way around the trunk. You could use a pruning knife to make two parallel lines 1cm apart and peel the bark out, you can do that quite early in the spring when the sap is rising, before the buds have broken. Once you have taken it out flip it 180 degrees, re-insert it and bind it with something like raffia. This will limit the movement of hormones up and down the plant and a bud could appear below the cut which will receive nutrients from the roots. Hopefully somewhere below the cut you will see new shoots starting to grow."
       }
     ]
   },
@@ -87,7 +98,8 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "I would leave them in the cold greenhouse, they are less likely to get Vine weevil in their pots. I would place them outside in the summer and then plant them in the winter."
+        "Gardener": "Anne",
+        "AnAnswer": "I would leave them in the cold greenhouse, they are less likely to get Vine weevil in their pots. I would place them outside in the summer and then plant them in the winter."
       }
     ]
   },
@@ -98,10 +110,12 @@
     "Date": "20161002",
     "Answers": [
       {
-        "Anne": "I think south-west facing is better but if the garden is large then more light pours in anyway. If it is a small, north-facing garden then in the winter it will get a lot of shadow."
+        "Gardener": "Anne",
+        "AnAnswer": "I think south-west facing is better but if the garden is large then more light pours in anyway. If it is a small, north-facing garden then in the winter it will get a lot of shadow."
       },
       {
-        "Chris": "Direction is important but soil quality is also crucial. Sloping gardens are also great, every 5 degrees from the horizontal is the equivalent of moving 100 miles further south."
+        "Gardener": "Chris",
+        "AnAnswer": "Direction is important but soil quality is also crucial. Sloping gardens are also great, every 5 degrees from the horizontal is the equivalent of moving 100 miles further south."
       }
     ]
   },
@@ -112,13 +126,16 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Anne": "You could make a feature out of it like a bamboo walkway."
+        "Gardener": "Anne",
+        "AnAnswer": "You could make a feature out of it like a bamboo walkway."
       },
       {
-        "Matt": "You could cut out sections of it and add lights to make into a piece of living art."
+        "Gardener": "Matt",
+        "AnAnswer": "You could cut out sections of it and add lights to make into a piece of living art."
       },
       {
-        "Chris": "You can take inspiration from Japanese bamboo gardens."
+        "Gardener": "Chris",
+        "AnAnswer": "You can take inspiration from Japanese bamboo gardens."
       }
     ]
   },
@@ -129,13 +146,16 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": "Old socks would work just as well because the moles are scared of the smell of humans, but nobody has found a certain way of getting rid of moles."
+        "Gardener": "Bob",
+        "AnAnswer": "Old socks would work just as well because the moles are scared of the smell of humans, but nobody has found a certain way of getting rid of moles."
       },
       {
-        "Bunny": "Your lawn could be full of worms, which is attracting them. You could use week-old urine in a watering can. A dog can be a very effective garden guard."
+        "Gardener": "Bunny",
+        "AnAnswer": "Your lawn could be full of worms, which is attracting them. You could use week-old urine in a watering can. A dog can be a very effective garden guard."
       },
       {
-        "Christine": "Some people have found filling the holes with sawdust to be effective. "
+        "Gardener": "Christine",
+        "AnAnswer": "Some people have found filling the holes with sawdust to be effective. "
       }
     ]
   },
@@ -146,7 +166,8 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": " You can prune the plant very well because it will give you bigger berries. Aim for around 5 main branches and reduce the side shoots on each branch to help with the berries’ growth."
+        "Gardener": "Bob",
+        "AnAnswer": " You can prune the plant very well because it will give you bigger berries. Aim for around 5 main branches and reduce the side shoots on each branch to help with the berries’ growth."
       }
     ]
   },
@@ -157,7 +178,8 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Christine": "It could be because of fluctuating temperatures."
+        "Gardener": "Christine",
+        "AnAnswer": "It could be because of fluctuating temperatures."
       }
     ]
   },
@@ -168,10 +190,12 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": "I would remove the privet and dig a trench and put a hurdle fence next to it. Then I would plant a mixture of ivy (which flower very late), in five to ten years the ivy will have completely taken over the hurdle fence and covered it. If you want it to be higher then you will need some strong, permanent posts which can hold up the ivy’s weight. Some of the conifers are also low in pollen."
+        "Gardener": "Bob",
+        "AnAnswer": "I would remove the privet and dig a trench and put a hurdle fence next to it. Then I would plant a mixture of ivy (which flower very late), in five to ten years the ivy will have completely taken over the hurdle fence and covered it. If you want it to be higher then you will need some strong, permanent posts which can hold up the ivy’s weight. Some of the conifers are also low in pollen."
       },
       {
-        "Bunny": "You can buy instant ivy hedges on panels if you need a quick solution, up to two metres high. I would probably grow Beech or Griselinia because ivy can have a lot of pollen in the winter."
+        "Gardener": "Bunny",
+        "AnAnswer": "You can buy instant ivy hedges on panels if you need a quick solution, up to two metres high. I would probably grow Beech or Griselinia because ivy can have a lot of pollen in the winter."
       }
     ]
   },
@@ -182,13 +206,16 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": "I would make bigger heaps; the bigger the heap, the less heat is lost. I remove weeds that have established roots or seeds on them such as nettles, bindweed and groundsel (Senecio vulgaris) and put them in buckets of water. There are very few roots/seeds that survive water and it will help the rotting process."
+        "Gardener": "Bob",
+        "AnAnswer": "I would make bigger heaps; the bigger the heap, the less heat is lost. I remove weeds that have established roots or seeds on them such as nettles, bindweed and groundsel (Senecio vulgaris) and put them in buckets of water. There are very few roots/seeds that survive water and it will help the rotting process."
       },
       {
-        "Bunny": "I would put a little sprinkler system on the heap in the summer because it can get very dry. I remove any weed that shows a sign of flowering from the heap and turn the compost a lot."
+        "Gardener": "Bunny",
+        "AnAnswer": "I would put a little sprinkler system on the heap in the summer because it can get very dry. I remove any weed that shows a sign of flowering from the heap and turn the compost a lot."
       },
       {
-        "Christine": "I separate anything with the potential for regrowth and reseeding and bury it. I turn them under so the chances of them re-surfacing are very low."
+        "Gardener": "Christine",
+        "AnAnswer": "I separate anything with the potential for regrowth and reseeding and bury it. I turn them under so the chances of them re-surfacing are very low."
       }
     ]
   },
@@ -199,10 +226,12 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": "Blueberries can suffer from Vine Weevil and Scale insects. One of the most common caterpillars are Tortrix caterpillars, if you tap them on the head they shoot backwards very fast. Remove any dead material from around the plants and remove the top inch of compost and replace it with some fresh ericaceous compost. Then brush the plants off before they flower. Small caterpillars are killed off by soft soap solutions too."
+        "Gardener": "Bob",
+        "AnAnswer": "Blueberries can suffer from Vine Weevil and Scale insects. One of the most common caterpillars are Tortrix caterpillars, if you tap them on the head they shoot backwards very fast. Remove any dead material from around the plants and remove the top inch of compost and replace it with some fresh ericaceous compost. Then brush the plants off before they flower. Small caterpillars are killed off by soft soap solutions too."
       },
       {
-        "Bunny": "You could put some fleece or enviromesh over the top of them when they are fruiting. I would put a top dressing on and they love a really high organic, acid compost such as coir."
+        "Gardener": "Bunny",
+        "AnAnswer": "You could put some fleece or enviromesh over the top of them when they are fruiting. I would put a top dressing on and they love a really high organic, acid compost such as coir."
       }
     ]
   },
@@ -213,10 +242,12 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Christine": "The cyclamen rotting could be from overwatering. You need to change the compost in the pot or even re-pot them."
+        "Gardener": "Christine",
+        "AnAnswer": "The cyclamen rotting could be from overwatering. You need to change the compost in the pot or even re-pot them."
       },
       {
-        "Bob": "Tap water can leave chalky deposits on the soil so I would use rain water. When you re-pot them you should wash the salts from the root system."
+        "Gardener": "Bob",
+        "AnAnswer": "Tap water can leave chalky deposits on the soil so I would use rain water. When you re-pot them you should wash the salts from the root system."
       }
     ]
   },
@@ -227,13 +258,16 @@
     "Date": "20161009",
     "Answers": [
       {
-        "Bob": "Some carrot varieties can be sown almost all the year around but they benefit from cloche protection. There are also autumn planting shallots and onions. Mangetout (snow pea) peas are hardier and normal peas are being made more mildew resistant, so some of those will come through the winter."
+        "Gardener": "Bob",
+        "AnAnswer": "Some carrot varieties can be sown almost all the year around but they benefit from cloche protection. There are also autumn planting shallots and onions. Mangetout (snow pea) peas are hardier and normal peas are being made more mildew resistant, so some of those will come through the winter."
       },
       {
-        "Christine": "The ‘Kelvedon Wonder’ pea variety sown under cloches does very well over the winter. Spinach, claytonia and mustard leaves will work as long as they are kept reasonably dry."
+        "Gardener": "Christine",
+        "AnAnswer": "The ‘Kelvedon Wonder’ pea variety sown under cloches does very well over the winter. Spinach, claytonia and mustard leaves will work as long as they are kept reasonably dry."
       },
       {
-        "Bunny": "Fennel and Celeriac seem to survive better without so many frosts. Beetroot and parsnips will work if you put a big mulch over them and so will lots of hardy Italian lettuces and kale."
+        "Gardener": "Bunny",
+        "AnAnswer": "Fennel and Celeriac seem to survive better without so many frosts. Beetroot and parsnips will work if you put a big mulch over them and so will lots of hardy Italian lettuces and kale."
       }
     ]
   },
@@ -244,13 +278,16 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Bunny": "I think you might have had hail storm damage or heavy wind damage killing all the cells on one side."
+        "Gardener": "Bunny",
+        "AnAnswer": "I think you might have had hail storm damage or heavy wind damage killing all the cells on one side."
       },
       {
-        "Bob": "A late frost could have touched one side of the stem and damaged it. Blue tits can sit on the plant to try and get the nectar which could be bending it to one side."
+        "Gardener": "Bob",
+        "AnAnswer": "A late frost could have touched one side of the stem and damaged it. Blue tits can sit on the plant to try and get the nectar which could be bending it to one side."
       },
       {
-        "Christine": "I have never been able to find out what’s going on because they flower very late."
+        "Gardener": "Christine",
+        "AnAnswer": "I have never been able to find out what’s going on because they flower very late."
       }
     ]
   },
@@ -261,16 +298,20 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Bob": "You’ve got Herb Robert and a Sycamore too"
+        "Gardener": "Bob",
+        "AnAnswer": "You’ve got Herb Robert and a Sycamore too"
       },
       {
-        "Alan": "What you do get out of tree ferns a lot is Acacia ‘Mimosa’"
+        "Gardener": "Alan",
+        "AnAnswer": "What you do get out of tree ferns a lot is Acacia ‘Mimosa’"
       },
       {
-        "Pippa": "It might have brought over its own micro-flora with it."
+        "Gardener": "Pippa",
+        "AnAnswer": "It might have brought over its own micro-flora with it."
       },
       {
-        "Matthew": "You wouldn’t get another tree fern sprouting from it so the seedlings are growing from spores."
+        "Gardener": "Matthew",
+        "AnAnswer": "You wouldn’t get another tree fern sprouting from it so the seedlings are growing from spores."
       }
     ]
   },
@@ -282,10 +323,12 @@
 
     "Answers": [
       {
-        "Pippa": "The woodlice are not responsible for any of the damage. I would remove the branch but try and leave the branch collar. The slight swelling left over after the branch is cut will allow it to heal over. If you dress it, you might encourage more mould."
+        "Gardener": "Pippa",
+        "AnAnswer": "The woodlice are not responsible for any of the damage. I would remove the branch but try and leave the branch collar. The slight swelling left over after the branch is cut will allow it to heal over. If you dress it, you might encourage more mould."
       },
       {
-        "Bob": "I use a gas blowtorch to sear the end which kills the spores that could infiltrate the cutting."
+        "Gardener": "Bob",
+        "AnAnswer": "I use a gas blowtorch to sear the end which kills the spores that could infiltrate the cutting."
       }
     ]
   },
@@ -296,10 +339,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Alan": "Also called ‘Elephant’s Foot’ or Nolina."
+        "Gardener": "Alan",
+        "AnAnswer": "Also called ‘Elephant’s Foot’ or Nolina."
       },
       {
-        "Matthew": "I am certain that it will not survive if you put it outside, no matter what protection it is given."
+        "Gardener": "Matthew",
+        "AnAnswer": "I am certain that it will not survive if you put it outside, no matter what protection it is given."
       }
     ]
   },
@@ -310,10 +355,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Alan": "This is a Mophead Hydrangea macrophylla 'Madame Emile Mouillère' - it flowers (white) on old wood and new wood. I would prune the hydrangea in the winter when the leaves are off."
+        "Gardener": "Alan",
+        "AnAnswer": "This is a Mophead Hydrangea macrophylla 'Madame Emile Mouillère' - it flowers (white) on old wood and new wood. I would prune the hydrangea in the winter when the leaves are off."
       },
       {
-        "Matthew": "I liquid-feed (liquid seaweed) my hydrangeas if they are in too much sun to stop the colour fading."
+        "Gardener": "Matthew",
+        "AnAnswer": "I liquid-feed (liquid seaweed) my hydrangeas if they are in too much sun to stop the colour fading."
       }
     ]
   },
@@ -324,10 +371,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Matthew": "I have left the heads on because they still have some decorative value but I will take them off at some point. Flowering will depend on where they are in the garden."
+        "Gardener": "Matthew",
+        "AnAnswer": "I have left the heads on because they still have some decorative value but I will take them off at some point. Flowering will depend on where they are in the garden."
       },
       {
-        "Pippa": "You can compensate for leaving the heads on by using a decent amount of feeding."
+        "Gardener": "Pippa",
+        "AnAnswer": "You can compensate for leaving the heads on by using a decent amount of feeding."
       }
     ]
   },
@@ -338,10 +387,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Bob": "If your soil is reasonably dry and you can keep the worst of the winter rains and frost off, then it’s far better to leave them in the ground."
+        "Gardener": "Bob",
+        "AnAnswer": "If your soil is reasonably dry and you can keep the worst of the winter rains and frost off, then it’s far better to leave them in the ground."
       },
       {
-        "Pippa": "Heavy soil and a wet winter are the real risks. If you can lift them and put them in a rodent-proof, frost proof container with good air circulation then outside should be ok. Do not keep them in the apartment."
+        "Gardener": "Pippa",
+        "AnAnswer": "Heavy soil and a wet winter are the real risks. If you can lift them and put them in a rodent-proof, frost proof container with good air circulation then outside should be ok. Do not keep them in the apartment."
       }
     ]
   },
@@ -352,10 +403,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Bob": "I would grow lots of seedling crops or salad leaves."
+        "Gardener": "Bob",
+        "AnAnswer": "I would grow lots of seedling crops or salad leaves."
       },
       {
-        "Pippa": "If you do successional sowings every 2 or 3 weeks it will help to prolong the growing. If you need to you could put a layer or two of fleece over the top, it will still allow some air circulation. Make sure you open the doors of the mini greenhouse during the day."
+        "Gardener": "Pippa",
+        "AnAnswer": "If you do successional sowings every 2 or 3 weeks it will help to prolong the growing. If you need to you could put a layer or two of fleece over the top, it will still allow some air circulation. Make sure you open the doors of the mini greenhouse during the day."
       }
     ]
   },
@@ -366,10 +419,12 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Matthew": "Peat is a brilliant light-weight additive from a commercial perspective. There are some plants that grow better in peat compost but the main reason is to make the compost lighter."
+        "Gardener": "Matthew",
+        "AnAnswer": "Peat is a brilliant light-weight additive from a commercial perspective. There are some plants that grow better in peat compost but the main reason is to make the compost lighter."
       },
       {
-        "Bob": "If you want to grow Sun Dews or any other bog plant you have to have peat."
+        "Gardener": "Bob",
+        "AnAnswer": "If you want to grow Sun Dews or any other bog plant you have to have peat."
       }
     ]
   },
@@ -380,7 +435,8 @@
     "Date": "20161016",
     "Answers": [
       {
-        "Pippa": "It is smut fungus - close relation of rust fungus."
+        "Gardener": "Pippa",
+        "AnAnswer": "It is smut fungus - close relation of rust fungus."
       }
     ]
   },
@@ -391,7 +447,8 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Bob": "It may be a different species to our runner bean - may of the beans, leaves and foliage are poisonous when raw but if they are cooked the poison is broken down. I wouldn’t try it."
+        "Gardener": "Bob",
+        "AnAnswer": "It may be a different species to our runner bean - may of the beans, leaves and foliage are poisonous when raw but if they are cooked the poison is broken down. I wouldn’t try it."
       }
     ]
   },
@@ -402,10 +459,12 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Matthew": "These are actually Pelargoniums.  They thrive in lots of sun and a Mediterranean climate unfortunately."
+        "Gardener": "Matthew",
+        "AnAnswer": "These are actually Pelargoniums.  They thrive in lots of sun and a Mediterranean climate unfortunately."
       },
       {
-        "Neil": "We do overwinter them but they do need as much sun as you can give them. You do need to cut them back hard in March to get good new growth."
+        "Gardener": "Neil",
+        "AnAnswer": "We do overwinter them but they do need as much sun as you can give them. You do need to cut them back hard in March to get good new growth."
       }
     ]
   },
@@ -416,13 +475,16 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Matthew": "Some rose varieties would work - ‘Shropshire Lad’ and ‘The Pilgrim’ for example."
+        "Gardener": "Matthew",
+        "AnAnswer": "Some rose varieties would work - ‘Shropshire Lad’ and ‘The Pilgrim’ for example."
       },
       {
-        "Bunny": "Camellias would do better than you might think.  Night Scented Phlox (Zaluzianskya) along the bottom of it for the scent.  Couple of tulip bulbs and maybe some tarragon and you’ll have a lovely pot."
+        "Gardener": "Bunny",
+        "AnAnswer": "Camellias would do better than you might think.  Night Scented Phlox (Zaluzianskya) along the bottom of it for the scent.  Couple of tulip bulbs and maybe some tarragon and you’ll have a lovely pot."
       },
       {
-        "Bob": "If you have enough sunlight try a grapevine.  Siegerrebe is a good one to try."
+        "Gardener": "Bob",
+        "AnAnswer": "If you have enough sunlight try a grapevine.  Siegerrebe is a good one to try."
       }
     ]
   },
@@ -433,14 +495,19 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Bob": "Runner beans. Czar is a good perennial for the climate here."
+        "Gardener": "Bob",
+        "AnAnswer": "Runner beans. Czar is a good perennial for the climate here."
       },
       {
-        "Matthew": "Hops"
+        "Gardener": "Matthew",
+        "AnAnswer": "Hops"
       },
-      { "Bunny": "Indian spinach. Gooseberries and redcurrants too. " },
-      { "Eric": "Stepover fruit" },
-      { "Neil": "Tuberous Nasturtium" }
+      {
+        "Gardener": "Bunny",
+        "AnAnswer": "Indian spinach. Gooseberries and redcurrants too. "
+      },
+      { "Gardener": "Eric", "AnAnswer": "Stepover fruit" },
+      { "Gardener": "Neil", "AnAnswer": "Tuberous Nasturtium" }
     ]
   },
   {
@@ -450,10 +517,12 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Bob": "Don’t use tap water - too much lime for them.  Also, they do suffer from vine weevils so watch out for that. And Scale too.  And make sure you don’t waterlog."
+        "Gardener": "Bob",
+        "AnAnswer": "Don’t use tap water - too much lime for them.  Also, they do suffer from vine weevils so watch out for that. And Scale too.  And make sure you don’t waterlog."
       },
       {
-        "Bunny": "Commercial growers like coir compost for blueberries - I wonder whether you had enough organic matter in your compost"
+        "Gardener": "Bunny",
+        "AnAnswer": "Commercial growers like coir compost for blueberries - I wonder whether you had enough organic matter in your compost"
       }
     ]
   },
@@ -464,17 +533,21 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Bob": "Cyclamen will work in heavy shade. Wild varieties. "
+        "Gardener": "Bob",
+        "AnAnswer": "Cyclamen will work in heavy shade. Wild varieties. "
       },
       {
-        "Neil": "‘Chatham Island’ forget-me-not (Myosotidium hortensia).  Also, Arthropodium cirratum from New Zealand - there’s a form with big flowers called Matapouri Bay. "
+        "Gardener": "Neil",
+        "AnAnswer": "‘Chatham Island’ forget-me-not (Myosotidium hortensia).  Also, Arthropodium cirratum from New Zealand - there’s a form with big flowers called Matapouri Bay. "
       },
       {
-        "Bunny": "Rose Bengal Beauty. Flowers from March to December.  Hydrangea paniculata ‘Limelight’ is amazing.  Camellias are perfect too. "
+        "Gardener": "Bunny",
+        "AnAnswer": "Rose Bengal Beauty. Flowers from March to December.  Hydrangea paniculata ‘Limelight’ is amazing.  Camellias are perfect too. "
       },
-      { "Eric": "Clumps of white foxglove" },
+      { "Gardener": "Eric", "AnAnswer": "Clumps of white foxglove" },
       {
-        "Matthew": "Japanese anemone - they will grow well and flower for a long time.  Persicaria amplexicaulis ‘Firetail’ would be an excellent perennial"
+        "Gardener": "Matthew",
+        "AnAnswer": "Japanese anemone - they will grow well and flower for a long time.  Persicaria amplexicaulis ‘Firetail’ would be an excellent perennial"
       }
     ]
   },
@@ -485,7 +558,8 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Neil": "It’s the winter rainfall here.  And Lupins are really attractive to slugs too."
+        "Gardener": "Neil",
+        "AnAnswer": "It’s the winter rainfall here.  And Lupins are really attractive to slugs too."
       }
     ]
   },
@@ -496,10 +570,12 @@
     "Date": "20161023",
     "Answers": [
       {
-        "Matthew": "Don’t plant too early - you run the risk of tulip fire.  Plant from around now up till Christmas. Most tulips are short lived. However, Tulipa tarda can last for a longer time than most. ‘Queen of Night’ will go on for seven or eight years.  Depth - plant at least three-times the depth of the bulb."
+        "Gardener": "Matthew",
+        "AnAnswer": "Don’t plant too early - you run the risk of tulip fire.  Plant from around now up till Christmas. Most tulips are short lived. However, Tulipa tarda can last for a longer time than most. ‘Queen of Night’ will go on for seven or eight years.  Depth - plant at least three-times the depth of the bulb."
       },
       {
-        "Neil": "In Ireland the wet sees the tulips off.  So I put them in big planters. "
+        "Gardener": "Neil",
+        "AnAnswer": "In Ireland the wet sees the tulips off.  So I put them in big planters. "
       }
     ]
   },
@@ -510,15 +586,18 @@
     "Date": "20161030",
     "Answers": [
       {
-        "Bunny": "Apples in containers.  Patio apples.  1m (3ft) or so high.  So much diversity.  Irish peach ripens in early-July.  Put them in baseless pots."
+        "Gardener": "Bunny",
+        "AnAnswer": "Apples in containers.  Patio apples.  1m (3ft) or so high.  So much diversity.  Irish peach ripens in early-July.  Put them in baseless pots."
       },
       {
-        "Neil": "Edibles are best.  The autumn raspberries are great and undemanding. "
+        "Gardener": "Neil",
+        "AnAnswer": "Edibles are best.  The autumn raspberries are great and undemanding. "
       },
       {
-        "Bob": "Rocket. It grows quickly and it goes well with a number of different dishes. Chives too.  Japanese wineberry is great - very ornamental and lovely berries. "
+        "Gardener": "Bob",
+        "AnAnswer": "Rocket. It grows quickly and it goes well with a number of different dishes. Chives too.  Japanese wineberry is great - very ornamental and lovely berries. "
       },
-      { "Matthew": "Roof-trained tree." }
+      { "Gardener": "Matthew", "AnAnswer": "Roof-trained tree." }
     ]
   },
   {
@@ -528,13 +607,16 @@
     "Date": "20161030",
     "Answers": [
       {
-        "James": "There is no scientific evidence to prove it as a method but I am interested in it. I have to garden when I have time and so cannot always plan it according to the moon schedule."
+        "Gardener": "James",
+        "AnAnswer": "There is no scientific evidence to prove it as a method but I am interested in it. I have to garden when I have time and so cannot always plan it according to the moon schedule."
       },
       {
-        "Matt": "Sometimes the weather conditions happen to be better for growing some crops. I think the climate has more influence than the moon."
+        "Gardener": "Matt",
+        "AnAnswer": "Sometimes the weather conditions happen to be better for growing some crops. I think the climate has more influence than the moon."
       },
       {
-        "Pippa": "I could never plan gardening around the moon because of the restrictive timings."
+        "Gardener": "Pippa",
+        "AnAnswer": "I could never plan gardening around the moon because of the restrictive timings."
       }
     ]
   },
@@ -545,7 +627,8 @@
     "Date": "20161030",
     "Answers": [
       {
-        "Pippa": "I would try using resistant varieties and also give the roses a good clean because the fungus can overwinter on the leaves. When you do your early spring pruning, use a magnifying glass and have a close look at the stems to find purple/black small dots. You could use chemicals but start spraying promptly on any spore patches before the leaves break. Try out different types of black spot cleaners."
+        "Gardener": "Pippa",
+        "AnAnswer": "I would try using resistant varieties and also give the roses a good clean because the fungus can overwinter on the leaves. When you do your early spring pruning, use a magnifying glass and have a close look at the stems to find purple/black small dots. You could use chemicals but start spraying promptly on any spore patches before the leaves break. Try out different types of black spot cleaners."
       }
     ]
   },
@@ -556,10 +639,12 @@
     "Date": "20161030",
     "Answers": [
       {
-        "James": "This is magnolia grandiflora - I have never really needed to prune it. If you have any damaged wood, dead wood or branches that cross over then you might need to prune it."
+        "Gardener": "James",
+        "AnAnswer": "This is magnolia grandiflora - I have never really needed to prune it. If you have any damaged wood, dead wood or branches that cross over then you might need to prune it."
       },
       {
-        "Pippa": "I don’t think they need routine pruning unless you think it is getting in the way of another plant or part of the garden."
+        "Gardener": "Pippa",
+        "AnAnswer": "I don’t think they need routine pruning unless you think it is getting in the way of another plant or part of the garden."
       }
     ]
   },
@@ -570,10 +655,12 @@
     "Date": "20161030",
     "Answers": [
       {
-        "Pippa": "You can buy them as cut-back clumps which create a mini group of stems. That will be a lot smaller than a standard silver birch. I recommend Betula utilis var. jacquemontii ‘snow queen’, which is multi-stemmed."
+        "Gardener": "Pippa",
+        "AnAnswer": "You can buy them as cut-back clumps which create a mini group of stems. That will be a lot smaller than a standard silver birch. I recommend Betula utilis var. jacquemontii ‘snow queen’, which is multi-stemmed."
       },
       {
-        "Matt": "Make sure you clean them with a soft brush and soapy water to make sure the algae doesn’t form on the north side. They would look beautiful if they were up-lit."
+        "Gardener": "Matt",
+        "AnAnswer": "Make sure you clean them with a soft brush and soapy water to make sure the algae doesn’t form on the north side. They would look beautiful if they were up-lit."
       }
     ]
   },
@@ -584,10 +671,12 @@
     "Date": "20161030",
     "Answers": [
       {
-        "Matt": "The plant is telling you that it is too hot. They do not like the intense heat, they do like bright light and shade as well. The leaves will look scorched and that will indicate that the sun exposure is too much for them. Keep them moist in pots - check them twice a day during the hot summer times."
+        "Gardener": "Matt",
+        "AnAnswer": "The plant is telling you that it is too hot. They do not like the intense heat, they do like bright light and shade as well. The leaves will look scorched and that will indicate that the sun exposure is too much for them. Keep them moist in pots - check them twice a day during the hot summer times."
       },
       {
-        "Pippa": "If it happens again I would check the soil because fuchsias are prone to damage from vine weevil."
+        "Gardener": "Pippa",
+        "AnAnswer": "If it happens again I would check the soil because fuchsias are prone to damage from vine weevil."
       }
     ]
   },
@@ -598,13 +687,16 @@
     "Date": "20161030",
     "Answers": [
       {
-        "Matt": "Buy fresh seeds every year. The packet might recommend to sew in February but that might not be a suitable time. I would wait until the soil is warmer and plant up to the end of April or early May. You can start them in modules under glass and before the large tap root has formed. You could also plant each one inside a cardboard toilet roll holder and they need a temperature of around 40 degrees Fahrenheit (4.5 degrees centigrade) to germinate."
+        "Gardener": "Matt",
+        "AnAnswer": "Buy fresh seeds every year. The packet might recommend to sew in February but that might not be a suitable time. I would wait until the soil is warmer and plant up to the end of April or early May. You can start them in modules under glass and before the large tap root has formed. You could also plant each one inside a cardboard toilet roll holder and they need a temperature of around 40 degrees Fahrenheit (4.5 degrees centigrade) to germinate."
       },
       {
-        "Pippa": "They are very hard to germinate. You could try station sowing whereby you place three seeds close together to maximise the chances of at least one germinating in each area. Try and do some successional sowings a few weeks apart."
+        "Gardener": "Pippa",
+        "AnAnswer": "They are very hard to germinate. You could try station sowing whereby you place three seeds close together to maximise the chances of at least one germinating in each area. Try and do some successional sowings a few weeks apart."
       },
       {
-        "James": "The seeds have a short shelf life. I also recommend planting turnip rooted chervil, which has much of the same flavour as parsnips."
+        "Gardener": "James",
+        "AnAnswer": "The seeds have a short shelf life. I also recommend planting turnip rooted chervil, which has much of the same flavour as parsnips."
       }
     ]
   },
@@ -615,7 +707,8 @@
     "Date": "20161030",
     "Answers": [
       {
-        "James": "I think it will be hard unless it was grown in a container culture. To balance out root damage you might want to remove some of the canopy but Phormia don’t adjust well to that. I would try it in April time."
+        "Gardener": "James",
+        "AnAnswer": "I think it will be hard unless it was grown in a container culture. To balance out root damage you might want to remove some of the canopy but Phormia don’t adjust well to that. I would try it in April time."
       }
     ]
   },
@@ -626,10 +719,12 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Matt": "I have had a lot of Oxalis debilis var. corymbosa come into my garden - a very tenacious weed. Instead of trying to beat it, I am going to use it as groundcover."
+        "Gardener": "Matt",
+        "AnAnswer": "I have had a lot of Oxalis debilis var. corymbosa come into my garden - a very tenacious weed. Instead of trying to beat it, I am going to use it as groundcover."
       },
       {
-        "James": "I have killed a lot of my house plants with used coffee grounds."
+        "Gardener": "James",
+        "AnAnswer": "I have killed a lot of my house plants with used coffee grounds."
       }
     ]
   },
@@ -640,10 +735,12 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Bunny": "Broccoli. Brussel sprouts or kale maybe.  Watercress is quite good. Chervil and coriander too. "
+        "Gardener": "Bunny",
+        "AnAnswer": "Broccoli. Brussel sprouts or kale maybe.  Watercress is quite good. Chervil and coriander too. "
       },
       {
-        "Anne": "Salad rocket.  American land cress is a great winter salad plant.  Really you need to sow in August though.  You could try broad beans (‘Aquadulce Claudia’) and Pea Meteor."
+        "Gardener": "Anne",
+        "AnAnswer": "Salad rocket.  American land cress is a great winter salad plant.  Really you need to sow in August though.  You could try broad beans (‘Aquadulce Claudia’) and Pea Meteor."
       }
     ]
   },
@@ -654,13 +751,16 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Anne": "It is only three years old so it should be ok - maybe it’s just having a growth spurt.  Feed it with high potash and then mulch over in spring.  That should help."
+        "Gardener": "Anne",
+        "AnAnswer": "It is only three years old so it should be ok - maybe it’s just having a growth spurt.  Feed it with high potash and then mulch over in spring.  That should help."
       },
       {
-        "Bunny": "It could be bullfinches taking the buds."
+        "Gardener": "Bunny",
+        "AnAnswer": "It could be bullfinches taking the buds."
       },
       {
-        "Matthew": "My plum tree produced one plum this year. My ‘Beurre Hardy’ pear produced one pear too.  Not a great year for them."
+        "Gardener": "Matthew",
+        "AnAnswer": "My plum tree produced one plum this year. My ‘Beurre Hardy’ pear produced one pear too.  Not a great year for them."
       }
     ]
   },
@@ -671,13 +771,16 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Anne": "Bog flag iris.  Meadowsweet.  Purple loosestrife. Water Mint - you can make mint sorbet from it!"
+        "Gardener": "Anne",
+        "AnAnswer": "Bog flag iris.  Meadowsweet.  Purple loosestrife. Water Mint - you can make mint sorbet from it!"
       },
       {
-        "Bunny": "Get coir rolls and pin them round the edge of the pond liner and that will help cover the liner up nice and quickly.  Have marsh marigolds (Caltha palustris). "
+        "Gardener": "Bunny",
+        "AnAnswer": "Get coir rolls and pin them round the edge of the pond liner and that will help cover the liner up nice and quickly.  Have marsh marigolds (Caltha palustris). "
       },
       {
-        "Matthew": "Structural planting is important.  Salix britzensis (a willow).  Cornus (stem-coloured Dogwoods).  Flaviramea is a vivid green variety.  Sanguinea too - often called ‘Midwinter Bonfire’ "
+        "Gardener": "Matthew",
+        "AnAnswer": "Structural planting is important.  Salix britzensis (a willow).  Cornus (stem-coloured Dogwoods).  Flaviramea is a vivid green variety.  Sanguinea too - often called ‘Midwinter Bonfire’ "
       }
     ]
   },
@@ -688,7 +791,8 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Anne": "You’re talking about (Schizostylis).  They are really easy to move and you can move at any time."
+        "Gardener": "Anne",
+        "AnAnswer": "You’re talking about (Schizostylis).  They are really easy to move and you can move at any time."
       }
     ]
   },
@@ -699,13 +803,16 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Matthew": "Because of their fleshy stems they’re not the easiest to get through winter."
+        "Gardener": "Matthew",
+        "AnAnswer": "Because of their fleshy stems they’re not the easiest to get through winter."
       },
       {
-        "Anne": "The textbook would recommend taking them out of the basket - I’ve never tried leaving them in."
+        "Gardener": "Anne",
+        "AnAnswer": "The textbook would recommend taking them out of the basket - I’ve never tried leaving them in."
       },
       {
-        "Bunny": "It’s not a big job do take them out. I would do it now and then get them in fresh compost next year."
+        "Gardener": "Bunny",
+        "AnAnswer": "It’s not a big job do take them out. I would do it now and then get them in fresh compost next year."
       }
     ]
   },
@@ -716,13 +823,16 @@
     "Date": "20161102",
     "Answers": [
       {
-        "Anne": "You want to leave tulips to fully die back… but if you can’t leave them till then move them to a trench somewhere they can.  Dry them off on racks in a cool, airy place and then you can leave them."
+        "Gardener": "Anne",
+        "AnAnswer": "You want to leave tulips to fully die back… but if you can’t leave them till then move them to a trench somewhere they can.  Dry them off on racks in a cool, airy place and then you can leave them."
       },
       {
-        "Bunny": "They will never be as good as the first year I’m afraid"
+        "Gardener": "Bunny",
+        "AnAnswer": "They will never be as good as the first year I’m afraid"
       },
       {
-        "Matthew": "You could plant them overly deep (5-8x the bulb’s size) in the first place - so they’re below the roots of what you’re going to plant next."
+        "Gardener": "Matthew",
+        "AnAnswer": "You could plant them overly deep (5-8x the bulb’s size) in the first place - so they’re below the roots of what you’re going to plant next."
       }
     ]
   },
@@ -733,7 +843,8 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Matthew": "Autumn"
+        "Gardener": "Matthew",
+        "AnAnswer": "Autumn"
       }
     ]
   },
@@ -744,10 +855,12 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Christine": "Dig it out and start again"
+        "Gardener": "Christine",
+        "AnAnswer": "Dig it out and start again"
       },
       {
-        "Bunny": "Depends what weed killer it was but it sounds like it’s badly damaged - start again"
+        "Gardener": "Bunny",
+        "AnAnswer": "Depends what weed killer it was but it sounds like it’s badly damaged - start again"
       }
     ]
   },
@@ -758,10 +871,12 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bunny": "If you give them a rich diet then they will burn the lawn.  I’d water where they’ve been to dilute the area and then put the droppings on the flowerbeds."
+        "Gardener": "Bunny",
+        "AnAnswer": "If you give them a rich diet then they will burn the lawn.  I’d water where they’ve been to dilute the area and then put the droppings on the flowerbeds."
       },
       {
-        "Bob": "I’d put them on the compost"
+        "Gardener": "Bob",
+        "AnAnswer": "I’d put them on the compost"
       }
     ]
   },
@@ -772,10 +887,12 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bob": "You need female hops.  Seeds spoil the fermentation.  Specialist hops are essential - not wild or ornamental. Beware - they do grow tall!"
+        "Gardener": "Bob",
+        "AnAnswer": "You need female hops.  Seeds spoil the fermentation.  Specialist hops are essential - not wild or ornamental. Beware - they do grow tall!"
       },
       {
-        "Bunny": "Contact the national collection of hops - they’ll be able to advise on your local climate/soil etc.  I grow ‘Golden Hop’ - very easy and quite attractive (but no good for beer making). "
+        "Gardener": "Bunny",
+        "AnAnswer": "Contact the national collection of hops - they’ll be able to advise on your local climate/soil etc.  I grow ‘Golden Hop’ - very easy and quite attractive (but no good for beer making). "
       }
     ]
   },
@@ -786,10 +903,12 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bunny": "It’s probably ‘Brown Turkey’. "
+        "Gardener": "Bunny",
+        "AnAnswer": "It’s probably ‘Brown Turkey’. "
       },
       {
-        "Bob": "They do grow vigorously.  Cut out the long shoots that are long-jointed (big gap between the leaves) as they don’t fruit and just tend to grow and grow.  Leave the short-jointed bits.  Keep any fertilizers away."
+        "Gardener": "Bob",
+        "AnAnswer": "They do grow vigorously.  Cut out the long shoots that are long-jointed (big gap between the leaves) as they don’t fruit and just tend to grow and grow.  Leave the short-jointed bits.  Keep any fertilizers away."
       }
     ]
   },
@@ -800,10 +919,12 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bob": "Kerrier - it can get 5-8ft depending on how rich the soil is."
+        "Gardener": "Bob",
+        "AnAnswer": "Kerrier - it can get 5-8ft depending on how rich the soil is."
       },
       {
-        "Christine": "Pleached trees.  An evergreen like a Filaria."
+        "Gardener": "Christine",
+        "AnAnswer": "Pleached trees.  An evergreen like a Filaria."
       }
     ]
   },
@@ -814,13 +935,16 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bob": "Both.  Ericaceous plants are the main group we consider acid loving. "
+        "Gardener": "Bob",
+        "AnAnswer": "Both.  Ericaceous plants are the main group we consider acid loving. "
       },
       {
-        "Christine": "The big problem is the lock up of phosphorous in the soil"
+        "Gardener": "Christine",
+        "AnAnswer": "The big problem is the lock up of phosphorous in the soil"
       },
       {
-        "Bunny": "You can get sulphur pastilles to reduce the pH of your soil.  I’m on pH 8 so would never do things like Rhododendrons or Azaleas - but things like Blueberries are fine. "
+        "Gardener": "Bunny",
+        "AnAnswer": "You can get sulphur pastilles to reduce the pH of your soil.  I’m on pH 8 so would never do things like Rhododendrons or Azaleas - but things like Blueberries are fine. "
       }
     ]
   },
@@ -831,13 +955,16 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Bob": "They're not too bad.  You need to water regularly with rain water.  I use liquid feeds and the start of the year I’d use a top dressing (a handful of blood fish and bone meal) too.  Capsids could be making the small marks. You also need to thin out the fruits a bit so they’re well spaced"
+        "Gardener": "Bob",
+        "AnAnswer": "They're not too bad.  You need to water regularly with rain water.  I use liquid feeds and the start of the year I’d use a top dressing (a handful of blood fish and bone meal) too.  Capsids could be making the small marks. You also need to thin out the fruits a bit so they’re well spaced"
       },
       {
-        "Christine": "I think you’ve got a problem with water pressure - that’s what causing the marks."
+        "Gardener": "Christine",
+        "AnAnswer": "I think you’ve got a problem with water pressure - that’s what causing the marks."
       },
       {
-        "Bunny": "These patio apples are very popular at the moment - they’re grown on an M-27 dwarf stock.  I’d take the bottom off the pots and let them grow down into the soil."
+        "Gardener": "Bunny",
+        "AnAnswer": "These patio apples are very popular at the moment - they’re grown on an M-27 dwarf stock.  I’d take the bottom off the pots and let them grow down into the soil."
       }
     ]
   },
@@ -848,12 +975,17 @@
     "Date": "20161113",
     "Answers": [
       {
-        "Christine": "Diversity, lots of colour, tidiness. "
+        "Gardener": "Christine",
+        "AnAnswer": "Diversity, lots of colour, tidiness. "
       },
       {
-        "Bob": "Neat and tidy. "
+        "Gardener": "Bob",
+        "AnAnswer": "Neat and tidy. "
       },
-      { "Bunny": "Be interesting. Grow vegetables if you like!" }
+      {
+        "Gardener": "Bunny",
+        "AnAnswer": "Be interesting. Grow vegetables if you like!"
+      }
     ]
   },
   {
@@ -863,12 +995,14 @@
     "Date": "20161120",
     "Answers": [
       {
-        "Bunny": "Chop it down but let it grow back as a multi-stem. "
+        "Gardener": "Bunny",
+        "AnAnswer": "Chop it down but let it grow back as a multi-stem. "
       },
       {
-        "Christine": "Amalanchier ‘Obelisk’ snowy something or other"
+        "Gardener": "Christine",
+        "AnAnswer": "Amalanchier ‘Obelisk’ snowy something or other"
       },
-      { "Bob": "Juniperus ‘Skyrocket’" }
+      { "Gardener": "Bob", "AnAnswer": "Juniperus ‘Skyrocket’" }
     ]
   },
   {
@@ -878,10 +1012,12 @@
     "Date": "20161120",
     "Answers": [
       {
-        "Matthew": "They are thought of as woodland plants but they do require a lot of light. They often work well in a coppiced woodland. They like enriched woodland soil but they are tolerant of poorer conditions. Once settled in they will bulk out quite quickly."
+        "Gardener": "Matthew",
+        "AnAnswer": "They are thought of as woodland plants but they do require a lot of light. They often work well in a coppiced woodland. They like enriched woodland soil but they are tolerant of poorer conditions. Once settled in they will bulk out quite quickly."
       },
       {
-        "Anne": "They do like good drainage as well as appreciating some moisture. You want to lift them after flowering when they are still green and be prepared to go fairly deep. You will need to plant them equally deep."
+        "Gardener": "Anne",
+        "AnAnswer": "They do like good drainage as well as appreciating some moisture. You want to lift them after flowering when they are still green and be prepared to go fairly deep. You will need to plant them equally deep."
       }
     ]
   },
@@ -892,7 +1028,8 @@
     "Date": "20161120",
     "Answers": [
       {
-        "Anne": "I would dig it out during the winter and it is often close to the surface and easy to attack. When it returns in the spring you will need to deal with it again."
+        "Gardener": "Anne",
+        "AnAnswer": "I would dig it out during the winter and it is often close to the surface and easy to attack. When it returns in the spring you will need to deal with it again."
       }
     ]
   },
@@ -903,10 +1040,12 @@
     "Date": "20161120",
     "Answers": [
       {
-        "Eric": "Some quince are sold as self-fertile but they are actually only partially self-fertile."
+        "Gardener": "Eric",
+        "AnAnswer": "Some quince are sold as self-fertile but they are actually only partially self-fertile."
       },
       {
-        "James": "You will require a second plant. If it was due to the health of the plant you wouldn’t get any flowering. If you are short of space, you could use Sibley's Patio Quince."
+        "Gardener": "James",
+        "AnAnswer": "You will require a second plant. If it was due to the health of the plant you wouldn’t get any flowering. If you are short of space, you could use Sibley's Patio Quince."
       }
     ]
   }
