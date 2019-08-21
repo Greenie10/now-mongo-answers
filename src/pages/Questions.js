@@ -31,7 +31,7 @@ class QuestionsPage extends React.Component {
             this.state.list.questions.map(
               ({ _id, Question, Location, Answers }) => {
                 return (
-                  <Table.Body>
+                  <Table.Body key={_id}>
                     <Table.Row verticalAlign="top">
                       <Table.Cell>
                         {Question}
@@ -39,8 +39,8 @@ class QuestionsPage extends React.Component {
                         <em>{Location}</em>
                       </Table.Cell>
                       <Table.Cell>
-                        {Answers.map(answer => (
-                          <Answer response={answer} />
+                        {Answers.map((answer, index) => (
+                          <Answer key={index} response={answer} />
                         ))}
                       </Table.Cell>
                     </Table.Row>
