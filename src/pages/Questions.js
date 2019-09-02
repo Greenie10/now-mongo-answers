@@ -10,6 +10,7 @@ class QuestionsPage extends React.Component {
   }
   async componentDidMount() {
     const response = await fetch("/questionsList");
+    // this is where apollo client comes in somehow
     const list = await response.json();
     this.setState({ list });
   }

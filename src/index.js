@@ -8,6 +8,7 @@ import {
   BrowserRouter as Router,
   Switch
 } from "react-router-dom";
+import ApolloClient, { gql } from "apollo-boost";
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
@@ -15,6 +16,23 @@ import QuestionsPage from "./pages/Questions";
 import Notfound from "./pages/Notfound";
 
 import * as serviceWorker from "./serviceWorker";
+
+const client = new ApolloClient({
+  uri: "https://apolloserver.lollymay.now.sh/api",
+  credentials: "include"
+});
+
+client
+  .query({
+    query: gql`
+      {
+        getGardeners {
+          name
+        }
+      }
+    `
+  })
+  .then(result => console.log("*** RESULT ***", result));
 
 const routing = (
   <Router>
