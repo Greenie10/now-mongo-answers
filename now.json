@@ -3,7 +3,8 @@
   "version": 2,
   "env": {
     "MONGODB_URI_GARDENERS": "@now-mongo-answers-uri-gardeners",
-    "MONGODB_URI_GQT": "@now-mongo-answers-uri-gqt"
+    "MONGODB_URI_GQT": "@now-mongo-answers-uri-gqt",
+    "REACT_APP_ANSWERS_SERVER_URL": "@react-app-answers-server-url"
   },
   "routes": [
     { "src": "/list", "dest": "/api/gardeners.js" },

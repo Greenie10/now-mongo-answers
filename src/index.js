@@ -17,9 +17,10 @@ import Notfound from "./pages/Notfound";
 
 import * as serviceWorker from "./serviceWorker";
 
+console.log("ENV", process.env.REACT_APP_ANSWERS_SERVER_URL);
+
 const client = new ApolloClient({
-  uri: "https://answers-server.lollymay.now.sh/graphql"
-  // uri: "http://localhost:4000/graphql"
+  uri: process.env.REACT_APP_ANSWERS_SERVER_URL
   // credentials: "include",
 
   // fetchOptions: {
