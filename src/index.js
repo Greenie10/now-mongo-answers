@@ -18,19 +18,23 @@ import Notfound from "./pages/Notfound";
 import * as serviceWorker from "./serviceWorker";
 
 const client = new ApolloClient({
-  uri: "https://answers-server.lollymay.now.sh",
-  credentials: "include",
+  uri: "https://answers-server.lollymay.now.sh/graphql"
+  // uri: "http://localhost:4000/graphql"
+  // credentials: "include",
 
-  fetchOptions: {
-    mode: "no-cors"
-  }
+  // fetchOptions: {
+  //   mode: "no-cors"
+  // }
 });
 
 client
   .query({
     query: gql`
       {
-        getQuestions { Question, Location}
+        getQuestions {
+          Question
+          Location
+        }
       }
     `
   })
