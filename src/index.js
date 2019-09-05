@@ -20,7 +20,8 @@ import * as serviceWorker from "./serviceWorker";
 console.log("ENV", process.env.REACT_APP_ANSWERS_SERVER_URL);
 
 const client = new ApolloClient({
-  uri: process.env.REACT_APP_ANSWERS_SERVER_URL
+  // uri: process.env.REACT_APP_ANSWERS_SERVER_URL
+  uri: "https://answers-server.lollymay.now.sh/graphql"
   // credentials: "include",
 
   // fetchOptions: {
