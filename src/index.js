@@ -23,12 +23,13 @@ import * as serviceWorker from "./serviceWorker";
 const cache = new InMemoryCache();
 const link = new HttpLink({
   uri: "https://answers-server.lollymay.now.sh/graphql"
+  // uri: "http://localhost:4000/graphql"
 });
 
 const client = new ApolloClient({
   // uri: process.env.REACT_APP_ANSWERS_SERVER_URL
   // uri: "https://answers-server.lollymay.now.sh/graphql",
-  credentials: "include",
+  // credentials: "include",
   cache,
   link
 
