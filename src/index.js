@@ -9,6 +9,7 @@ import {
   Switch
 } from "react-router-dom";
 import ApolloClient, { gql } from "apollo-boost";
+import { HttpLink, InMemoryCache } from "apollo-boost";
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
@@ -19,10 +20,17 @@ import * as serviceWorker from "./serviceWorker";
 
 console.log("ENV", process.env.REACT_APP_ANSWERS_SERVER_URL);
 
+const cache = new InMemoryCache();
+const link = new HttpLink({
+  uri: "https://answers-server.lollymay.now.sh/graphql"
+});
+
 const client = new ApolloClient({
-  uri: process.env.REACT_APP_ANSWERS_SERVER_URL
-  // uri: "https://answers-server.lollymay.now.sh/graphql"
-  // credentials: "include",
+  // uri: process.env.REACT_APP_ANSWERS_SERVER_URL
+  // uri: "https://answers-server.lollymay.now.sh/graphql",
+  credentials: "include",
+  cache,
+  link
 
   // fetchOptions: {
   //   mode: "no-cors"
