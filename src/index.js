@@ -22,20 +22,12 @@ import * as serviceWorker from "./serviceWorker";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-  uri: "https://answers-server.lollymay.now.sh/"
-  // uri: "http://localhost:4000/graphql"
+  uri: process.env.REACT_APP_ANSWERS_SERVER_URI
 });
 
 const client = new ApolloClient({
-  // uri: process.env.REACT_APP_ANSWERS_SERVER_URL
-  // uri: "https://answers-server.lollymay.now.sh/graphql",
-  // credentials: "include",
   cache,
   link
-
-  // fetchOptions: {
-  //   mode: "no-cors"
-  // }
 });
 
 client
@@ -82,8 +74,4 @@ const routing = (
 );
 
 ReactDOM.render(routing, document.getElementById("root"));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
