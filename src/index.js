@@ -37,9 +37,8 @@ const client = new ApolloClient({
 client
   .query({
     query: gql`
-      {
+      query TestQuery {
         getQuestions {
-          Question
           Location
         }
       }
