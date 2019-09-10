@@ -8,8 +8,10 @@ import {
   BrowserRouter as Router,
   Switch
 } from "react-router-dom";
-import ApolloClient, { gql } from "apollo-boost";
-import { HttpLink, InMemoryCache } from "apollo-boost";
+import ApolloClient from "apollo-client";
+import { InMemoryCache } from "apollo-cache-inmemory";
+import { HttpLink } from "apollo-link-http";
+import gql from "graphql-tag";
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
@@ -17,8 +19,6 @@ import QuestionsPage from "./pages/Questions";
 import Notfound from "./pages/Notfound";
 
 import * as serviceWorker from "./serviceWorker";
-
-console.log("ENV", process.env.REACT_APP_ANSWERS_SERVER_URL);
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
