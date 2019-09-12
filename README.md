@@ -1,3 +1,10 @@
+[A Journey from React to MongoDB, via Apollo/GraphQL, using Zeit Now to deploy](./howto.md): The beginnings of a blog post 'instructable' on how to join these pieces together and create an app.
+
+<hr />
+<hr />
+
+# Boilerplate gubbins below:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
