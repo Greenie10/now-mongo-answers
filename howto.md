@@ -1,6 +1,6 @@
 # A Journey from React to MongoDB, via Apollo/GraphQL
 
-(This is _very much_ a work in progress...)
+(This is _very much_ a work in progress... therefore unfit for human consumption just yet)
 
 ## Part A: Setup steps
 
@@ -25,7 +25,7 @@
 - this will create the dependencies `react`, `react-dom` and `react-scripts`
 - this will also add build scripts to the package.json
 
-### Step 4: Deploy example-users to now:
+### Step 4: Deploy example-users to now
 
 - `now` (yes really, just that)
 - watch it deploy on your Zeit dashboard at `zeit.co/YourZeitUsername`
@@ -76,6 +76,8 @@
 
 ## Part C: Secrets, environment variables & connection strings
 
+- Zeit secrets - have to do this in the relevant repo
+
 ### Allow any connections to your MongoDB Cluster
 
 - on MongoDB Atlas, go to Clusters on left menu
@@ -102,4 +104,82 @@
 
 ### Step 6: MongoDB connection string
 
+## Part D: The Apollo server `example-server`
+
+### Setup the repository
+
+- create new folder in terminal `mkdir example-server`
+- go into it `cd example-server`
+- initialise as a node project `npm init -y`
+- install dependencies `npm install apollo-server dotenv graphql mongoose`
+- create `.env` file (empty for now), and put the following in a `.gitignore` file:
+
+```
+.env
+/node_modules
+```
+
+- if using github, now's the time to add this new repository:
+
+  - still in terminal `git init`
+  - make first commit
+  - from GitHub website, add repository `example-server`
+  - leave everything default, click Create repository
+  - do the _"…or push an existing repository from the command line"_ things eg:
+
+  ```
+  git remote add origin git@github.com:YourGithubUsername/example-server.git
+  git push -u origin master
+  ```
+
+- add the following to `package.json`:
+
+```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "build": "exit 0"
+  },
+```
+
+- create a file called `now.json` at the root of `example-server` repo, and add the following:
+
+```json
+{
+  "name": "example-server",
+  "version": 2,
+  "builds": [{ "src": "*.js", "use": "@now/node" }]
+}
+```
+
+### Connect `example-server` to MongoDB Atlas
+
+- the following numbered steps allow connection to MongoDB from your local _and_ from the deployed Zeit Now environment. The MongoDB connection string contains your login details, so is kept in a hidden file: `.env`. However once the repo is deployed on Zeit Now, `.env` is no longer available. So additionally, you need to setup a 'secret' via the Zeit Now CLI:
+
+  1. **Create Zeit Now secret:**
+     in terminal type: `now secrets add mongodb-connect mongodb+srv://\YourMongoDBAdminUsername:YourPassword@YourClusterName.mongodb.net/\YourDatabaseName?retryWrites=true` where 'mongodb-connect' here is the _name_ of the secret.
+
+  2. **Create local environment variable:**
+     add this line to your `.env` file: `MONGODB_CONNECT=mongodb+srv://\YourMongoDBAdminUsername:YourPassword@YourClusterName.mongodb.net/\YourDatabaseName?retryWrites=true`
+
+  3. **Add Zeit Now secret to now.json:**
+     add the following to your `now.json` file:
+
+```json
+      "env": {
+        "MONGODB_CONNECT": "@mongodb-connect"
+      },
+      "build": {
+        "env": {
+          "MONGODB_CONNECT": "@mongodb-connect"
+        }
+      }
+```
+
+### Create index.js
+
+<script src="https://gist.github.com/Greenie10/620e054b12897ca52de6f55240f25790.js"></script>
+
 <a name="footnote1">[1]</a>: [Create and Deploy a MongoDB-Powered Node.js API with ZEIT Now](https://zeit.co/guides/deploying-a-mongodb-powered-api-with-node-and-now)
+
+<a name="footnote2">[2]</a>: [Environment Variables and Secrets with Zeit Now](https://zeit.co/docs/v2/environment-variables-and-secrets/?query=sec)
