@@ -295,12 +295,25 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 - push `example-server` to ZEIT, with either `now` on command line, or git commit and push
 - once it's deployed (watch it deploying on your ZEIT dashboard) visit your site and hopefully the Apollo playground will appear
 - check the schema tab shows sensible things (picture)
+- you may need to wake up the MongoDB Atlas cluster, by simply reloading say the cluster page on the website (it's really just a testing playground, you'd have to pay for more of an instant response, always on tier)
 
-  ```graphql
+  ```javascript
   query {
     getUsers {
       Name
       Email
+    }
+  }
+  ```
+
+- try the mutation (adding a user)
+
+  ```javascript
+  mutation {
+    addUser(Name: "Jonty McJilly", Email: "jonty.mcjilly@poshtown.com") {
+      Name
+      Email
+      id
     }
   }
   ```
