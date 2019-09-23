@@ -1,36 +1,14 @@
 import React from "react";
 
-class GardenersPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { list: null };
-  }
-  async componentDidMount() {
-    const response = await fetch("/list");
-    const list = await response.json();
-    this.setState({ list });
-  }
-  render() {
+
+const GardenersPage = () => {
     return (
       <div>
         <h1>Gardeners</h1>
-
-        <table>
-          <tr>
-            <th>Name</th>
-            <th>_id</th>
-          </tr>
-          {this.state.list &&
-            this.state.list.gardeners.map(({ _id, name }) => (
-              <tr>
-                <td>{name}</td>
-                <td>{_id}</td>
-              </tr>
-            ))}
-        </table>
+        <h2>List gardeners</h2>
+        <p>nothing here yet</p>
       </div>
     );
   }
-}
 
 export default GardenersPage;

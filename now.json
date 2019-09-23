@@ -5,9 +5,5 @@
     "MONGODB_URI_GARDENERS": "@now-mongo-answers-uri-gardeners",
     "MONGODB_URI_GQT": "@now-mongo-answers-uri-gqt",
     "REACT_APP_ANSWERS_SERVER_URI": "@answers-server-uri"
-  },
-  "routes": [
-    { "src": "/list", "dest": "/api/gardeners.js" },
-    { "src": "/questionsList", "dest": "/api/questions.js" }
-  ]
+  }
 }
