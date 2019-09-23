@@ -1,4 +1,4 @@
-[A Journey from React to MongoDB, via Apollo/GraphQL, using Zeit Now to deploy](./howto.md): The beginnings of a blog post 'instructable' on how to join these pieces together and create an app.
+[Full stack app deployment with ZEIT Now](https://greenie10.github.io/Full_stack_app_deployment_with_ZEIT_Now.html): The beginnings of a blog post 'instructable' on how to join these pieces together and create an app.
 
 <hr />
 <hr />
