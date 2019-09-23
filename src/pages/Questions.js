@@ -1,58 +1,33 @@
 import React from "react";
-import { Table } from "semantic-ui-react";
+import { useQuery } from '@apollo/react-hooks';
+import gql from "graphql-tag";
 
-import Answer from "../Components/Answer";
-
-class QuestionsPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { list: null };
+const QUESTIONS = gql`
+  query TestQuery {
+    getQuestions {
+      Location
+    }
   }
-  async componentDidMount() {
-    const response = await fetch("/questionsList");
-    // this is where apollo client comes in somehow
-    const list = await response.json();
-    this.setState({ list });
-  }
+`;
 
-  render() {
+export function Questions() {
+  const { loading, error, data } = useQuery(QUESTIONS);
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+  return data.getQuestions.map(({ id, Location }) => (
+    <p key={id}>{Location}</p>
+    )
+  )
+}
+
+export const QuestionsPage = () => {
     return (
       <div>
         <h1>Questions</h1>
-
-        <Table celled padded>
-          <Table.Header>
-            <Table.Row>
-              <Table.HeaderCell>Question</Table.HeaderCell>
-              <Table.HeaderCell>Answers</Table.HeaderCell>
-            </Table.Row>
-          </Table.Header>
-
-          {this.state.list &&
-            this.state.list.questions.map(
-              ({ _id, Question, Location, Answers }) => {
-                return (
-                  <Table.Body key={_id}>
-                    <Table.Row verticalAlign="top">
-                      <Table.Cell>
-                        {Question}
-                        <br />
-                        <em>{Location}</em>
-                      </Table.Cell>
-                      <Table.Cell>
-                        {Answers.map((answer, index) => (
-                          <Answer key={index} response={answer} />
-                        ))}
-                      </Table.Cell>
-                    </Table.Row>
-                  </Table.Body>
-                );
-              }
-            )}
-        </Table>
+        <Questions />
+        
       </div>
     );
   }
-}
 
 export default QuestionsPage;
