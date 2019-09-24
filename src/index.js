@@ -5,7 +5,6 @@ import * as serviceWorker from "./serviceWorker";
 
 import Routing from './routing'
 
-import "semantic-ui-css/semantic.min.css";
 import "./index.css";
 
 
@@ -20,8 +19,8 @@ const link = new HttpLink({
   // this env is not getting picked up on production
   // have to revert to hard coding uri
   // uri: process.env.REACT_APP_ANSWERS_SERVER_URI
-  uri: "https://answers-server.lollymay.now.sh/"
-  // uri: "http://localhost:4000/"
+  // uri: "https://answers-server.lollymay.now.sh/"
+  uri: "http://localhost:4000/"
 });
 
 const client = new ApolloClient({
