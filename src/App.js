@@ -1,9 +1,9 @@
 import React from "react";
 
 const App = () => (
-      <div>
+      <main>
         <h2>This is the app</h2>
-      </div>
+      </main>
   );
 
 

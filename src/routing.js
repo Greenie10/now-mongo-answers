@@ -7,15 +7,16 @@ import {
   Switch
 } from "react-router-dom";
 
-import App from "./App";
+import {NavWrapper} from './styled-components';
 
+import App from "./App";
 import GardenersPage from "./pages/Gardeners";
 import QuestionsPage from "./pages/Questions";
 import Notfound from "./pages/Notfound";
 const Routing = () => (
 
   <Router>
-    <div>
+    <NavWrapper>
       <ul>
         <li>
           <NavLink exact activeClassName="active" to="/">
@@ -33,13 +34,13 @@ const Routing = () => (
           </NavLink>
         </li>
       </ul>
+    </NavWrapper>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/gardeners" component={GardenersPage} />
         <Route path="/questions" component={QuestionsPage} />
         <Route component={Notfound} />
       </Switch>
-    </div>
   </Router>
 
 );
