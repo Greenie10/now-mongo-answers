@@ -5,14 +5,13 @@ import * as serviceWorker from "./serviceWorker";
 
 import Routing from './routing'
 
-import "./index.css";
-
-
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from "apollo-client";
 
 import { InMemoryCache } from "apollo-cache-inmemory";
 import { HttpLink } from "apollo-link-http";
+
+import {GlobalStyleSheet} from './styled-components';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
@@ -31,6 +30,7 @@ const client = new ApolloClient({
 const appWrapper = (
   <ApolloProvider client={client}>
     <Routing />
+    <GlobalStyleSheet />
   </ApolloProvider>
 
 );

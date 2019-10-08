@@ -2,8 +2,8 @@ import React from "react";
 import { useQuery } from '@apollo/react-hooks';
 import gql from "graphql-tag";
 
-import {QuestionWrapper, QuestionH4, AnswersList, Fleuron, ZoneBox} from '../styled-components';
-import { zoneConstants } from '../zone-constants';
+import {QuestionWrapper, QuestionH4, AnswersList, Fleuron, ZoneBox} from './styled-components';
+import { zoneConstants } from '../constants';
 
 const GET_QUESTIONS = gql`
   query GetQuestions {
