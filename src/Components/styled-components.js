@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import {colourConstants} from '../constants';
+import styled from "styled-components";
+import { colourConstants } from "../constants";
 
 const { COLOUR } = colourConstants;
 
@@ -10,14 +10,19 @@ export const QuestionWrapper = styled.article`
     display: none;
   }
   :before {
-    background-image: linear-gradient(to right, transparent, ${COLOUR.DECORATION}, transparent);
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      ${COLOUR.DECORATION},
+      transparent
+    );
     content: "";
     height: 1px;
     left: 5%;
     position: absolute;
     right: 5%;
     width: 90%;
-  } 
+  }
 `;
 
 export const Fleuron = styled.div`
@@ -38,11 +43,7 @@ export const ZoneBox = styled.span`
   padding: 5px;
 `;
 
-
-export const QuestionH4 = styled.h4`
-`;
-
-
+export const QuestionH4 = styled.h4``;
 
 export const AnswersList = styled.dl`
   display: flex;
@@ -52,7 +53,8 @@ export const AnswersList = styled.dl`
     flex-wrap: nowrap;
   }
   margin-top: 0.5em;
-  dt, dd {
+  dt,
+  dd {
     margin-inline-start: 0;
     padding: 0.5em;
   }
@@ -80,23 +82,41 @@ export const AnswersList = styled.dl`
     flex-grow: 2;
     margin-inline-end: 0.1em;
   }
-  dt:nth-of-type(even), dd:nth-of-type(even) {
+  dt:nth-of-type(even),
+  dd:nth-of-type(even) {
     background-color: ${COLOUR.WHITE1};
   }
-  dt:nth-of-type(even), dt:nth-of-type(odd)  {
+  dt:nth-of-type(even),
+  dt:nth-of-type(odd) {
     margin-top: 2px;
     padding-bottom: 0;
     @media (min-width: 500px) {
       margin-top: 0;
       padding-bottom: 0.5em;
     }
-
   }
-  dt:nth-of-type(odd), dd:nth-of-type(odd) {
+  dt:nth-of-type(odd),
+  dd:nth-of-type(odd) {
     background-color: ${COLOUR.WHITE2};
   }
 `;
 
+export const QuestionLabel = styled.label`
+  display: block;
+`;
 
+export const QuestionInput = styled.input`
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  &:first-of-type {
+    width: calc(100% - 1em);
+  }
+`;
 
-
+export const QuestionSelect = styled.select`
+  display: block;
+  line-height: 3em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+`;

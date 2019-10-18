@@ -1,5 +1,5 @@
-import styled, {createGlobalStyle} from 'styled-components';
-import {colourConstants} from './constants';
+import styled, { createGlobalStyle } from "styled-components";
+import { colourConstants } from "./constants";
 
 const { COLOUR } = colourConstants;
 
@@ -10,13 +10,19 @@ export const GlobalStyleSheet = createGlobalStyle`
     font-family: "Lora", serif;
     margin: 0;
   }
+  input {
+    font-family: "Lora", serif;
+    font-size: 1rem;
+  }
   h1,
   h2,
   h3,
   h4,
   h5,
   h6,
-  th {
+  th,
+  label,
+  select {
     font-family: Nunito, sans-serif;
     font-weight: normal;
     margin-bottom: 0;
@@ -51,9 +57,10 @@ export const NavWrapper = styled.nav`
   }
   .active {
     background: linear-gradient(${COLOUR.BACKGROUND} 80%, ${COLOUR.TEXT} 100%);
-    color: ${COLOUR.TEXT}
+    color: ${COLOUR.TEXT};
   }
-  a:hover, .active:hover {
+  a:hover,
+  .active:hover {
     color: ${COLOUR.LINK_HIGHLIGHT};
   }
 `;
