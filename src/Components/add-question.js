@@ -3,11 +3,7 @@ import { useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 
 import { zoneConstants } from "../constants";
-import {
-  QuestionLabel,
-  QuestionInput,
-  QuestionSelect
-} from "./styled-components";
+import { StyledLabel, StyledInput, StyledSelect } from "./styled-components";
 
 const ADD_QUESTION = gql`
   mutation AddQuestion(
@@ -22,7 +18,6 @@ const ADD_QUESTION = gql`
       Zone: $Zone
       Date: $Date
     ) {
-      id
       Question
       Location
       Zone
@@ -54,22 +49,22 @@ export function AddQuestion() {
           dateInput.value = "";
         }}
       >
-        <QuestionLabel htmlFor="Question">Question posed</QuestionLabel>
-        <QuestionInput
+        <StyledLabel htmlFor="Question">Question posed</StyledLabel>
+        <StyledInput
           name="Question"
           ref={node => {
             questionInput = node;
           }}
         />
-        <QuestionLabel htmlFor="Location">Location of broadcast</QuestionLabel>
-        <QuestionInput
+        <StyledLabel htmlFor="Location">Location of broadcast</StyledLabel>
+        <StyledInput
           name="Location"
           ref={node => {
             locationInput = node;
           }}
         />
-        <QuestionLabel htmlFor="Zone">Frost zone (USDA)</QuestionLabel>
-        <QuestionSelect
+        <StyledLabel htmlFor="Zone">Frost zone (USDA)</StyledLabel>
+        <StyledSelect
           name="Zone"
           id="Zone"
           ref={node => {
@@ -80,9 +75,9 @@ export function AddQuestion() {
           {Object.keys(zoneConstants.ZONE).map((elem, _id) => {
             return <option value={elem}>{elem}</option>;
           })}
-        </QuestionSelect>
-        <QuestionLabel htmlFor="Date">Date of broadcast</QuestionLabel>
-        <QuestionInput
+        </StyledSelect>
+        <StyledLabel htmlFor="Date">Date of broadcast</StyledLabel>
+        <StyledInput
           name="Date"
           ref={node => {
             dateInput = node;

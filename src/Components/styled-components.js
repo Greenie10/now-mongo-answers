@@ -101,11 +101,11 @@ export const AnswersList = styled.dl`
   }
 `;
 
-export const QuestionLabel = styled.label`
+export const StyledLabel = styled.label`
   display: block;
 `;
 
-export const QuestionInput = styled.input`
+export const StyledInput = styled.input`
   display: block;
   margin-bottom: 1em;
   padding: 0.5em;
@@ -114,7 +114,7 @@ export const QuestionInput = styled.input`
   }
 `;
 
-export const QuestionSelect = styled.select`
+export const StyledSelect = styled.select`
   display: block;
   line-height: 3em;
   margin-bottom: 1em;
