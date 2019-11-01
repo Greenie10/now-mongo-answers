@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 
 import * as serviceWorker from "./serviceWorker";
 
-import Routing from './routing'
+import Routing from "./routing";
 
-import { ApolloProvider } from '@apollo/react-hooks';
+import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-client";
 
 import { InMemoryCache } from "apollo-cache-inmemory";
 import { HttpLink } from "apollo-link-http";
 
-import {GlobalStyleSheet} from './styled-components';
+import { GlobalStyleSheet } from "./styled-components";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
@@ -32,7 +32,6 @@ const appWrapper = (
     <Routing />
     <GlobalStyleSheet />
   </ApolloProvider>
-
 );
 
 ReactDOM.render(appWrapper, document.getElementById("root"));

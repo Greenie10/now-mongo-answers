@@ -1,7 +1,7 @@
 import React from "react";
-
 import { useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
+
 import { StyledLabel, StyledInput } from "./styled-components";
 
 const INSERT_ANSWER = gql`
@@ -24,12 +24,11 @@ export function InsertAnswer() {
         e.preventDefault();
         insertAnswer({
           variables: {
-            Answers: [
-              {
-                Gardener: gardenerInput.value,
-                AnAnswer: anAnswerInput.value
-              }
-            ]
+            id: "5db83d91da7e1d9686579431",
+            Answers: {
+              Gardener: gardenerInput.value,
+              AnAnswer: anAnswerInput.value
+            }
           }
         });
         anAnswerInput.value = "";

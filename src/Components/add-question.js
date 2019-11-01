@@ -73,7 +73,11 @@ export function AddQuestion() {
         >
           <option value="">Select zone</option>
           {Object.keys(zoneConstants.ZONE).map((elem, _id) => {
-            return <option value={elem}>{elem}</option>;
+            return (
+              <option key={elem} value={elem}>
+                {elem}
+              </option>
+            );
           })}
         </StyledSelect>
         <StyledLabel htmlFor="Date">Date of broadcast</StyledLabel>
