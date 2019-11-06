@@ -7,7 +7,7 @@ import {
   Switch
 } from "react-router-dom";
 
-import {NavWrapper} from './styled-components';
+import { NavWrapper } from "./styled-components";
 
 import App from "./App";
 import GardenersPage from "./pages/Gardeners";
@@ -15,7 +15,6 @@ import QuestionsPage from "./pages/Questions";
 import AddQuestionPage from "./pages/AddQuestion";
 import Notfound from "./pages/Notfound";
 const Routing = () => (
-
   <Router>
     <NavWrapper>
       <ul>
@@ -41,15 +40,15 @@ const Routing = () => (
         </li>
       </ul>
     </NavWrapper>
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/gardeners" component={GardenersPage} />
-        <Route path="/questions" component={QuestionsPage} />
-        <Route path="/add-question" component={AddQuestionPage} />
-        <Route component={Notfound} />
-      </Switch>
+    <Switch>
+      <Route exact path="/" component={App} />
+      <Route path="/gardeners" component={GardenersPage} />
+      <Route path="/questions" component={QuestionsPage} />
+      <Route path="/add-question" component={AddQuestionPage} />
+      <Route path="/add-question/:questionId" component={AddQuestionPage} />
+      <Route component={Notfound} />
+    </Switch>
   </Router>
-
 );
 
-export default Routing
+export default Routing;

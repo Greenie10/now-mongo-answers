@@ -15,7 +15,8 @@ const INSERT_ANSWER = gql`
   }
 `;
 
-export function InsertAnswer() {
+export function InsertAnswer(props) {
+  const questionId = props.location.state.questionId;
   const [insertAnswer] = useMutation(INSERT_ANSWER);
   let anAnswerInput, gardenerInput;
   return (
@@ -24,7 +25,7 @@ export function InsertAnswer() {
         e.preventDefault();
         insertAnswer({
           variables: {
-            id: "5db83d91da7e1d9686579431",
+            id: questionId,
             Answers: {
               Gardener: gardenerInput.value,
               AnAnswer: anAnswerInput.value

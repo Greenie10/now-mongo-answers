@@ -1,6 +1,7 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
 import gql from "graphql-tag";
+import { Link } from "react-router-dom";
 
 import {
   QuestionWrapper,
@@ -28,9 +29,6 @@ const GET_QUESTIONS = gql`
 `;
 
 export function GetAllQuestions() {
-  // const handleClick = id => {
-  //   console.log("clicked!" + id);
-  // };
   const { loading, error, data } = useQuery(GET_QUESTIONS);
   const { ZONE } = zoneConstants;
   if (loading) return <p>Loading...</p>;
@@ -41,8 +39,9 @@ export function GetAllQuestions() {
         <b>{Question}</b> - <em>{Location}</em>{" "}
         <ZoneBox zone={ZONE[Zone]}>{Zone}</ZoneBox>
       </QuestionH4>
-      {/* <button onClick={() => handleClick(id)}>Add answer</button> */}
-      <button>Add answer</button>
+      <Link to={{ pathname: "add-question", state: { questionId: id } }}>
+        Add answer
+      </Link>
       <AnswersList>
         {Answers.map(({ Gardener, AnAnswer }, index) => (
           <span key={index}>
