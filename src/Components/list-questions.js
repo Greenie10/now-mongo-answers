@@ -39,9 +39,7 @@ export function GetAllQuestions() {
         <b>{Question}</b> - <em>{Location}</em>{" "}
         <ZoneBox zone={ZONE[Zone]}>{Zone}</ZoneBox>
       </QuestionH4>
-      <Link to={{ pathname: "add-question", state: { questionId: id } }}>
-        Add answer
-      </Link>
+      <Link to={{ pathname: `add-question/${id}` }}>Add answer</Link>
       <AnswersList>
         {Answers.map(({ Gardener, AnAnswer }, index) => (
           <span key={index}>

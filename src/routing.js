@@ -51,9 +51,6 @@ const Routing = () => (
       <Route path="/questions">
         <QuestionsPage />
       </Route>
-      <Route path="/add-question">
-        <AddQuestionPage />
-      </Route>
       <Route path="/add-question/:questionId">
         <AddQuestionPage>
           <InsertAnswer />
