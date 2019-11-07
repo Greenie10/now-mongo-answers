@@ -14,6 +14,7 @@ import GardenersPage from "./pages/Gardeners";
 import QuestionsPage from "./pages/Questions";
 import AddQuestionPage from "./pages/AddQuestion";
 import Notfound from "./pages/Notfound";
+import { InsertAnswer } from "./Components/update-question";
 const Routing = () => (
   <Router>
     <NavWrapper>
@@ -41,12 +42,26 @@ const Routing = () => (
       </ul>
     </NavWrapper>
     <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/gardeners" component={GardenersPage} />
-      <Route path="/questions" component={QuestionsPage} />
-      <Route path="/add-question" component={AddQuestionPage} />
-      <Route path="/add-question/:questionId" component={AddQuestionPage} />
-      <Route component={Notfound} />
+      <Route exact path="/">
+        <App />
+      </Route>
+      <Route path="/gardeners">
+        <GardenersPage />
+      </Route>
+      <Route path="/questions">
+        <QuestionsPage />
+      </Route>
+      <Route path="/add-question">
+        <AddQuestionPage />
+      </Route>
+      <Route path="/add-question/:questionId">
+        <AddQuestionPage>
+          <InsertAnswer />
+        </AddQuestionPage>
+      </Route>
+      <Route path="*">
+        <Notfound />
+      </Route>
     </Switch>
   </Router>
 );
