@@ -1,6 +1,7 @@
 import React from "react";
 import { useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
+import { useHistory } from "react-router-dom";
 
 import { StyledLabel, StyledInput } from "./styled-components";
 
@@ -16,9 +17,9 @@ const INSERT_ANSWER = gql`
 `;
 
 export function InsertAnswer({ questionId }) {
-
   const [insertAnswer] = useMutation(INSERT_ANSWER);
   let anAnswerInput, gardenerInput;
+  let history = useHistory();
   return (
     <form
       onSubmit={e => {
@@ -34,6 +35,7 @@ export function InsertAnswer({ questionId }) {
         });
         anAnswerInput.value = "";
         gardenerInput.value = "";
+        history.goBack();
       }}
     >
       <StyledLabel htmlFor="AnAnswer">Answer</StyledLabel>
